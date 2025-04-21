@@ -1,0 +1,47 @@
+*{margin: 0;
+    padding: 0;}
+    
+    body{background-color: silver;
+    color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{background-color: white;
+    background-color: #dfdea0;
+    color: #444145;
+    padding: inherit;
+    }
+    p{padding: 5px;
+    margin: 0px;
+    }
+    p.zero{background-color: rgb(255, 72, 165);
+    }
+    p.one{background-color: rgb(255, 119, 188);
+    }
+    p.two{background-color: rgb(255, 174, 215);
+    }
+    p.three{background-color: rgb(255, 202, 229);
+    }
+    p.four{background-color: rgb(245, 186, 215);
+    }
+    p.five{background-color: rgb(248, 201, 227);
+    }
+    p.six{background-color: rgb(239,199 ,239 );
+    }
+    p.seven{background-color: rgb(48, 90, 153);
+    }
+    p.eight{background-color: rgb(159,223, 242);
+    }
+    p.nine{background-color: rgb(113, 200, 226);
+    }
+    p.ten{background-color: rgb(96, 208, 242);
+    }
+    p.eleven{background-color: rgb(83, 196, 230);
+    }
+    p.twelve{background-color: rgb(83, 208, 247);
+    }
+    p.thirteen{background-color: rgb(44, 189, 233);
+    }
+    p.fourteen{background-color: rgb(8, 180, 232);
+    }
+    
