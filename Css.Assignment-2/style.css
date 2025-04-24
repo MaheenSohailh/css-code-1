@@ -1,32 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Mono+One&display=swap');
+  
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'poppins',  sans-serif;
 }
 a { text-decoration: none;
-    color: blue;}
-    a:hover { color: #0056b3;}
+    color: rgb(14, 72, 119);
+    display: inline-block;
     
-
+    
+}
+    a:hover { color: #992981;}
 .container
 {
-    position: relative;
-    width: 100%;
-    max-width: 2000px;
-    min-height: 1000px;   
-    margin: 1000;
-    display: flex;
-    grid-template-columns: 1fr 3fr ;
-    box-shadow: 0 35px 55px rgba(0, 0, 0,0.1);
+    height: 100vh;
+    max-width: 100vw;
+   
 }
 
 .container .child1
 {
-    position: relative;
-    background: #003147;
-    padding: 40px;
-    margin-right: auto;
+    height: 100vh;
+    width: 20%;
+    background: #277599;
+    display: inline-block;
+    vertical-align: top;
+    
 } 
 .ProfileText
 {
@@ -35,24 +36,25 @@ a { text-decoration: none;
     flex-direction: column ;
     align-items: center;
     padding-bottom: 70px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-
 }
 .ProfileText .imgBx
 {
-    margin-top: 65px;
-    margin-bottom: 15px;
+    margin-top: 55px;
+    margin-bottom: 20px;
     position: relative;
     width: 200px;
     height: 200px;
-    border-radius: 60%;
+    border-radius: 50%;
     overflow: hidden;
+    background-color: rgb(3, 27, 58);
+    border: 8px solid rgb(233, 238, 238);
+    outline: 5px solid rgb(3, 21, 49);
+    box-shadow: 5px 5px 5px rgb(243, 239, 239);
+
 }
 .ProfileText .imgBx img 
 {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -70,11 +72,91 @@ a { text-decoration: none;
 .container .child2
 {
     position: relative;
-    background: #fff;
-    padding: 20px;
+    padding-left: 3em;
+    height: 100vh;
+    width: 76%;
+    display: inline-block;
+    overflow: auto;
+    vertical-align: top;
+
 } 
-.child2  header h1 { padding-top: 100px;  text-align: left; }
-header p { margin: 10px; color: gray; }
-section { margin-top: 58px; color: gray;}
-.child2 h3 { color: gray; }   
-p { color: gray; }   
+.child2  header h1 { padding-top: 100px;  text-align: left;
+          font-size: 80px;
+          color: #26b4f1;
+}
+header p { margin: 5px; color: gray; }
+section { margin-top: 56px; color: gray;}
+.child2 h3 { color: gray; } 
+p  { color: gray;
+}   
+h4 { font-size: 20px;
+    color: gray;
+}
+.child2 h1 {
+    font-size: 40px;
+    font-style: italic;
+}
+.icon  
+ {
+    display: block;
+    vertical-align: top;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(70, 66, 66, 0.952);
+    color:rgb(241, 236, 236);
+    font-size: 2em;
+    text-align: center;
+    margin-left: 35px;
+   
+}
+.icon:hover {
+    background-color: rgb(56, 113, 167);
+}
+
+.icon:hover .iconSize {
+    color: black;
+
+}
+
+.iconSize {
+    line-height: 50px;
+}
+.list{ 
+    color: gray;
+    margin-left: 60px;
+    font-size: 17px;
+    list-style-type: square;
+    line-height: 24px;
+  }
+
+.award img
+{
+    width: 20px;
+}
+.award  span
+{
+    color: gray;
+
+
+}
+
+.date {
+    position: absolute;
+    right: 0 ;
+    top: auto;
+    font-size: 0.999rem;
+    color: rgb(41, 21, 150);
+    padding-right: 40px; 
+  }
+
+  
+
+  
+
+
+
+
+
+
+
