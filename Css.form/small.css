@@ -1,0 +1,78 @@
+.parent{
+    flex-direction: row;
+    height: 72em;
+    align-items: last baseline;
+    position: relative;
+     margin: 10% 0 0 30%;
+     width: 600px;
+}
+.parent .content{
+    height: 502px;
+    width: 550px;
+  bottom: 20px;
+  top: 2%;
+  position: absolute;
+  left: 5%;
+}
+
+.content p{
+    font-size: 1.5vmax;
+    line-height: 1.2em;
+}
+.content .two p{
+    font-size: 1.5vmax;
+    line-height: 1.2em;
+}
+.content .one p{
+    font-size: 1.5vmax;
+}
+.content .user p,span{
+    font-size: 1.5vmax;
+}
+.parent .right{ 
+    padding-left: 1%;
+}
+.parent .right .pera{
+    font-size: 1.4vmax;
+}
+.parent .right p,a{
+    font-size: 1.3vmax;
+}
+.parent .right input{
+    font-size: 1.2vmax;
+}
+.parent .right h2{
+    font-size: 2.4vmax;
+}
+.parent .right button{
+    margin-top: 20px;
+    font-size: 1.4vmax;
+}
+.parent .right .options .but{
+     font-size: 1.2vmax;
+     padding-right: 13%;
+}
+.parent .left {
+    padding-bottom: 40%;
+    padding-left: 3%;
+}
+.parent .left .pera{
+    font-size: 1.4vmax;
+}
+.parent .left p,a{
+     font-size: 1.4vmax;
+}
+.parent .left input{
+    font-size: 1.3vmax;
+}
+.parent .left h2{
+    font-size: 2.6vmax;
+}
+.parent .left button{
+    margin-top: 20px;
+    font-size: 1.4vmax;
+}
+.parent .left .options .but{
+     font-size: 1.2vmax;
+     padding-right: 13%;
+}
