@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> CSS: Cascading Style Sheets </title>
+  <!-- //// link font start -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- //// link font end -->
+
+  <link rel="stylesheet" href="./style.css">
+  <!--  link style.css -->
+        <link rel="stylesheet" href="./large.css" media="(max-width:1300px)">
+   <!--  link large.css   -->
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <h3><strong class="mdn">M</strong> mdn web docs <strong class="b"> _ </strong></h3>
+       
+      <!-- /// dropdown icon -->
+  <span class="icon">
+        <span class="fa-solid fa-list  icons"></span>
+          <!-- navbar -->
+        <nav>
+        <a href="./index1.html">References</a>
+            <a href="#link8">Learn</a>
+
+            <!-- //// line dropdown -->
+            <span class="line">
+           <a class="and"  href="#link11">Plus</a>
+        <!-- /// hide  -->
+            <div class="hide">
+              <a href="#link3"> AI Help </a>
+              <a href="#link2"> Updates </a>
+              <a href="#link4"> Overview </a>
+              <a href="#link9"> Documentation </a>
+              <a href="#link1"> FAQ </a>
+             </div>
+          </span>
+            
+            <a href="#link25">Curriculum</a>  <span class="new"> NEW </span>
+            <a href="#link3">Blog</a>
+
+      <!-- //// line dropdown -->
+            <span class="line">
+              <a class="and" href="#">Tools</a>
+        <!-- /// hide  -->
+            <div class="hide">
+              <a href="#link3">HTML </a>
+              <a href="#link2">CSS </a>
+              <a href="#link4">JAVASCRIPT </a>
+              <a href="#link9"> HTTP</a>
+             </div>
+          </span>
+        </nav>
+        <!--  theme image -->
+           <img src="https://static-00.iconduck.com/assets.00/dark-theme-icon-2048x2048-ymrfkxsy.png" alt=" theme"  class="img">
+            <p class="top"><b> Theme </b></p>  
+            <!--  form search bar -->
+            <form action="https://www.google.com/search" method="get">
+             <input type="text" name="q" placeholder="_"><img class="search" src="search.png" alt="search">
+             </form>
+             <!--  login -->
+             <a class="login" href="./form/index.html">Log in </a>
+             <!-- sign up -->
+             <a class="sign" href="./form/index.html"><b> Sign up for free </b></a>
+
+</span>
+
+             <!--  header head -->
+   <div class="head">
+    <a href="#Reference">References</a>
+    &gt;
+    <a href="#">CSS</a>
+        <img src="https://img.favpng.com/23/13/17/computer-icons-language-icon-png-favpng-NQSGiSmKDpKJpGXw1p4tMdi6Z.jpg" alt="language">
+    <button>English(US)</button>
+   </div>
+   </header>
+   <!-- container -->
+   <div class="container">
+    <!-- ////// sidebar chlid rips -->
+    <span class="rips">
+    <span class="fa-solid fa-grip rip"></span>
+   <!-- child  -->
+   <div class="child">
+  <br>
+  <div class="box">
+   <form action="https://www.google.com/search" method="get">
+     <input type="text" name="q" placeholder="Filter"><img class="filter" src="./filter.png" alt="filter">
+     </form>
+     </div>
+     <br>
+   <span><a href="#./index.html"> CSS </a></span>
+   <br>
+   <a href="#Beginner's tutorials"><strong> Beginner's tutorials </strong></a>
+   <br>
+   <a href="#link3" class="are">Your first website: Styling the content</a>
+   <!-- child unorder list -->
+   <ul>
+  <li><a href="#link1">CSS styling basics</a></li>
+  <li><a href="#link5">CSS text styling</a></li>
+  <li><a href="#link">CSS layout</a></li>
+</ul>
+<a href="#link2"><strong>CSS reference</strong> </a>
+<ul>
+  <li><a href="#link23">Modules</a></li>
+  <li><a href="#link21">Properties</a></li>
+  <li><a href="#link5">Selectors</a></li>
+  <li><a href="#link6">Combinators</a></li>
+  <li><a href="#link7">Pseudo-classes</a></li>
+  <li><a href="#link8">Pseudo-elements</a></li>
+  <li><a href="#link9">At-rules</a></li>
+  <li><a href="#link10">Functions</a></li>
+  <li><a href="#link11">Types</a></li>
+</ul>
+<a href="#link14"><strong>Guides</strong></a>
+<ul>
+  <li><a href="#link">Animations</a></li>
+  <li><a href="#link1">Backgrounds and Borders</a></li>
+  <li><a href="#link2">Box alignment</a></li>
+  <li><a href="#link3">Box model</a></li>
+  <li><a href="#link4">Colors</a></li>
+  <li><a href="#link5">Columns</a></li>
+  <li><a href="#link6">Conditional rules</a></li>
+  <li><a href="#link7">Containment</a></li>
+  <li><a href="#link8">CSSOM view</a></li>
+  <li><a href="#link9">Display</a></li>
+  <li><a href="#link10">Flexbox</a></li>
+  <li><a href="#link11">Fonts</a></li>
+  <li><a href="#link12">Grid</a></li>
+  <li><a href="#link13">Images</a></li>
+  <li><a href="#link14">Lists and counters</a></li>
+  <li><a href="#link15">Logical properties</a></li>
+  <li><a href="#link16">Math functions</a></li>
+  <li><a href="#link17">Media queries</a></li>
+  <li><a href="#link18">Nesting style rules</a></li>
+  <li><a href="#link19">Positioning</a></li>
+  <li><a href="#link20">Scroll snap</a></li>
+  <li><a href="#link21">Shapes</a></li>
+  <li><a href="#link22">Text</a></li>
+  <li><a href="#link23">Transforms</a></li>
+  <li><a href="#link24">Transitions</a></li>
+</ul>
+<!-- child link -->
+<a href="#link8"><strong>CSS Layout cookbook</strong></a>
+<br>
+<a href="#link" class="are">Recipe: Media objects</a>
+<br>
+<a href="#link3" class="are">Column layouts</a>
+<br>
+<a href="#link1" class="are">Center an element</a>
+<br>
+<a href="#link6" class="are">Sticky footers</a>
+<br>
+<a href="#link4" class="are">Split navigation</a>
+<br>
+<a href="#link5" class="are">Breadcrumb navigation</a>
+<br>
+<a href="#link2" class="are">List group with badges</a>
+<br>
+<a href="#link9" class="are">Pagination</a>
+<br>
+<a href="#link10" class="are">Card</a>
+<br>
+<a href="#link11" class="are">Grid wrapper</a>
+<br>
+<a href="#Tools for CSS development"><strong> Tools  </strong></a>
+<br>
+<a href="#link" class="are">Color picker tool</a>
+<br>
+<a href="#link3" class="are">Box-shadow generator</a>
+<br>
+<a href="#link9" class="are">Border-image generator</a>
+<br>
+<a href="#link8" class="are">Border-radius generator</a>
+<br><br><br>
+</div>          
+</span>
+  <!-- child1 -->
+  <div class="child1"> 
+    <h1>CSS: Cascading Style Sheets</h1>
+    <p id="link11"><b>Cascading Style Sheets (CSS)</b> is a <a href="#link">stylesheet</a> language used to describe the presentation of a document written in <a href="#link1">HTML</a> or <a href="#link2">XML</a> (including XML dialects such as <a href="#link3">SVG</a>, <a href="#link4">MathML</a> or <a href="#link5">XHTML</a> ). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+   <br>
+   <p id="link12">CSS is among the core languages of the <b>open web</b> and is standardized across Web browsers according to <a href="#link6">W3C specifications</a>. Previously, the development of various parts of CSS specification was done synchronously, which allowed the versioning of the latest recommendations. You might have heard about CSS1, CSS2.1, or even CSS3. There will never be a CSS3 or a CSS4; rather, everything is now just "CSS" with individual CSS modules having version numbers.</p>
+  <br>
+  <p id="link4">After CSS 2.1, the scope of the specification increased significantly and the progress on different CSS modules started to differ so much, that it became more effective to <a href="#link6">develop and release recommendations separately per module</a>. Instead of versioning the CSS specification, W3C now periodically takes a snapshot of <a href="#link7">the latest stable state of the CSS specification</a> and individual modules progress. CSS modules now have version numbers, or levels, such as <a href="#link8">CSS Color Module Level 5</a>.</p>
+  <br><br>
+  <h2 id="Beginner's tutorials"> Beginner's tutorials</h2>
+  <br>
+  <a href="#link10">Your first website: Styling the content</a>
+   <p id="link3">This article provides a brief tour of what CSS is and how to use it, aimed at people who are completely new to web development.</p>
+<br>
+   <a href="#link10">CSS styling basics</a>
+   <p id="link1">Our <a href="#link7">Learn web development</a> section's CSS basics module teaches CSS fundamentals from the ground up.</p>
+<br>
+   <a href="#link9">CSS text styling</a>
+   <p id="link5">Here we look at fundamentals including setting font, boldness, italics, line and letter spacing, drop shadows, and other text features. We round off the module by looking at applying custom fonts to your page, and styling lists and links.</p>
+<br><br>
+<a href="#link16">CSS layout</a>
+<p id="link">Now it's time to look at how to correctly lay out your boxes in relation to one another, and the browser viewport. This module looks at floats, positioning, other modern layout tools, and building responsive designs that will adapt to different devices, screen sizes, and resolutions.</p>
+<br><br>
+<h2 id="Reference">Reference</h2>
+<br>
+<p id="link2">The <a href="#link14"> CSS reference</a> is an exhaustive reference for seasoned Web developers, describing every property and concept of CSS, including:</p>
+<br>
+ <!-- child1 unorder list -->
+<ul>
+  <li id="link6">The <a href="#link"> syntax and forms of the language</a></li>
+  <li id="link7"><a href="#link1">Specificity</a> ,<a href="#link16"> inheritance</a> ,</a> and <a href="#link18"> the cascade </a></li>
+  <li><a href="#link2">CSS selectors </a> , including <a href="#link10"> pseudo-elements</a>,<a href="#link4"> nesting </a> , <a href="#link"> scoping </a> and <a href="#link4"> shadow parts </a></li>
+  <li><a href="#link3">CSS at-rules </a> , including <a href="#link19">media </a>and <a href="#link2"> container </a> queries</li>
+  <li id="link13"><a href="#link4">CSS values and units </a>  module, including <a href="#link8"> numeric data types </a> , <a href="#link"> textual data types </a> and <a href="#link16"> functional notations </a></li>
+  <li><a href="#link5">Box model </a> and <a href="#link18"> margin collapse </a></li>
+  <li>The <a href="#link17"> containing block</a></li>
+  <li id="link9"><a href="#link10">Stacking </a> and <a href="#link20"> block-formatting </a> contexts</li>  
+  <li><a href="#link21">Initial </a> , <a href="#link"> computed </a> , <a href="#link5"> used </a> , and <a href="#link21"> actual </a> <a href="#link22"> values </a> </li>
+  <li><a href="#link13">CSS shorthand properties</a></li>
+  <li><a href="#link17">CSS flexible box </a> , <a href="#link11"> multi-column </a> and <a href="#link14"> grid </a> layout </li>
+  <li id="link25"><a href="#link1">Animation </a> , <a href="#link12"> transitions </a> , and <a href="#link"> transforms </a></li>
+</ul>
+<br><br>
+<h2 id="Cookbook"> Cookbook </h2>
+<br>
+<p id="link8">The <a href="#link23">CSS layout cookbook </a> aims to bring together recipes for common layout patterns, things you might need to implement in your sites. In addition to providing code you can use as a starting point in your projects, these recipes highlight the different ways layout specifications can be used and the choices you can make as a developer.</p>
+<br> <br>
+<h2 id="Tools for CSS development">Tools for CSS development</h2>
+<br>
+<!-- child1 unorder list -->
+<ul>
+  <li id="link14">You can use the <a href="#link25">W3C CSS Validation Service </a> to check if your CSS is valid. This is an invaluable debugging tool.</li>
+  <li id="link17"><a href="#link23"> Firefox Developer Tools </a> lets you view and edit a page's live CSS via the <a href="#link25"> Inspector </a> and <a href="#link22">Style Editor </a> tools.</li>
+  <li id="link18">The <a href="#link24"> Web Developer extension </a> for Firefox lets you track and edit live CSS on watched sites.</li>
+</ul>
+<br><br>
+ <h2 id="Meta bugs">Meta bugs</h2>
+ <br>
+ <!-- child1 unorder list -->
+ <ul><li id="link19">Firefox: <a href="#link7">Firefox bug 1323667</a></li></ul>
+ <br><br>
+ <h2 id="See also">See also</h2>
+ <br>
+ <!-- child1 unorder list -->
+ <ul><li id="link10">Web languages to which CSS is often applied: <a href="#link22"> HTML</a>, <a href="#link13"> SVG</a>, <a href="#link">MathML</a>, <a href="#link2"> XHTML</a> and <a href="#link1"> XML</a>.</li>
+ <li id="link16"><a href="#link12">Stack Overflow questions about CSS</a></li>
+</ul>
+<br><br>
+<!-- child1 chil -->
+<div class="chil">
+ <img id="link20" class="icon" src="./masse.png" alt="masse">
+ <h2 id="link23">Help improve MDN </h2>
+ <P id="22"> Was this page helpful to you? </P>
+ <button class="btn"><img src="./like.png" alt="like">Yes</button>
+ <button class="btn1"><img class="img" src="./dislike.png" alt="dislike"> No</button>
+ <p class="pera"><a href="#link8"> Learn how to contribute </a> .</p>
+ <p id="24">This page was last modified on Mar 22, 2025 by <a href="#link1"> MDN contributors </a> . </p>
+ <p id="21"><a href="#link"> View this page on GitHub </a> * <a href="#link2"> Report a problem with this content </a> </p>
+
+</div>
+</div> 
+<!-- child2 sidebar chi -->
+ <span class="chi">
+     <span class="fa-solid fa-sliders open"></span>
+     <!-- child2 -->
+  <div class="child2">
+    <br><br>
+    <span>In this article</span>
+    <br><br>
+   <a href="#Beginner's tutorials">Beginner's tutorials</a>
+   <br><br>
+   <a href="#Reference"> Reference </a>
+   <br><br>
+   <a href="#Cookbook"> Cookbook </a>
+   <br><br>
+   <a href="#Tools for CSS development">Tools for CSS development </a>
+   <br><br>
+   <a href="#Meta bugs"> Meta bugs</a>
+   <br><br>
+   <a href="#See also"> See also</a>
+</div>
+</span>
+</div>
+<!--  footer  -->
+<footer class="footer">
+  <div class="footer-head">
+    <img src="https://avatars.githubusercontent.com/u/1086321?s=280&v=4" alt="gitlabicon">
+    <h2>GitLab</h2>
+    <h3> AI in Software Development:A Guide for Leaders</h3>
+    <a href="https://about.gitlab.com/ebook-beginners-guide-ai/?utm_medium=display&utm_source=bsa&utm_campaign=20250501_global_dmp_x_x_en_mdn-homepage-bottom&utm_content=aiguide_x_x" target="_blank"><button> Access now </button></a>
+  </div>
+   <div class="footer-top">
+     <div class="brand">
+       <h2>mdn</h2>
+       <p>Your blueprint for a better internet.</p>
+       <div class="social-icons">
+          <span><a href="https://bsky.app/profile/developer.mozilla.org" target="_blank"><img src="https://developer.mozilla.org/static/media/bluesky.ced6c28203d89d3910ab.svg" alt="bluesky"></span></a>
+            <span><a href="https://mastodon.social/@mdn" target="_blank"><img src="https://developer.mozilla.org/static/media/mastodon.ef3a62906d984f615f00.svg" alt="m"></span></a>
+          <span><a href="https://x.com/mozdevnet" target="_blank"><img src="https://developer.mozilla.org/static/media/twitter-x.2281a8f12c7edfe78a52.svg" alt="x"></span></a>
+         <span><a href="https://github.com/mdn/" target="_blank"><img src="https://developer.mozilla.org/static/media/github-mark-small.348586b8904b950b8ea8.svg" alt="github"></span></a>
+         <span><a href="https://developer.mozilla.org/en-US/blog/rss.xml" target="_blank"><img src="https://developer.mozilla.org/static/media/feed.566a60406f1ae82b0738.svg" alt="wifi"></span></a>
+       </div>
+     </div>
+ 
+     <div class="footer-links">
+       <div>
+         <h4>MDN</h4>
+         <a href="#link">About</a>
+         <a href="#link1">Blog</a>
+         <a href="#link2">Careers</a>
+         <a href="#link3">Advertise with us</a>
+       </div>
+       <div>
+         <h4>Support</h4>
+         <a href="#link4">Product help</a>
+         <a href="#link5">Report an issue</a>
+       </div>
+       <div>
+         <h4>Our communities</h4>
+         <a href="#link6">MDN Community</a>
+         <a href="#link7">MDN Forum</a>
+         <a href="#link8">MDN Chat</a>
+       </div>
+       <div>
+         <h4>Developers</h4>
+         <a href="#link9">Web Technologies</a>
+         <a href="#link23">Learn Web Development</a>
+         <a href="#link22">MDN Plus</a>
+         <a href="#link21">Hacks Blog</a>
+       </div>
+     </div>
+   </div>
+   <hr />
+   <div class="footer-bottom">
+     <img class="logo"  src="https://www.soeren-hentzschel.at/wp-content/uploads/2024/08/mozilla-logo-2024.png" alt="mozilla">
+     <div class="policies">
+       <a href="#link24">Website Privacy Notice</a>
+       <a href="#link25">Cookies</a>
+       <a href="#link10">Legal</a>
+       <a href="#link11">Community Participation Guidelines</a>
+     </div>
+     <p>
+       Visit <a href="#link12">Mozilla Corporation’s</a> not-for-profit parent, the <a href="#link13">Mozilla Foundation</a>.<br>
+       Portions of this content are ©1998–2025 by individual mozilla.org contributors. Content available under a
+       <a href="#link11">Creative Commons license</a>.
+     </p>
+   </div>
+ </footer>
+
+</body>
+</html>

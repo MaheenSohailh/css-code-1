@@ -1,0 +1,152 @@
+/* ////////////// footer  */
+.footer {
+      margin-top: 53%;
+}
+/* ///// child1 */
+.child1{ width:70%; }
+.child1 h1{
+    margin-top: 4%;
+    line-height: 1.1em;
+}
+/* ///////// head */
+.head {
+    height: 2.5%;
+}
+/* /////////// child1 peragraph */
+.child1 p{
+    font-size: 1.2em;
+}
+/* ////////// header sidbar dropdown */
+header .icon .icons{  
+    display: inline-block; 
+     position: absolute;
+      padding: 2% 0 0 67.2%;
+}
+header nav,.new,.img,.top,.search,form,input,a.login,a.sign{ display: none; }
+header .icon:hover  nav,.new,.img,.top,.search,form,input,a.login,a.sign{ display: flex;  }
+nav,.new,.img,.top,.search,form,input{
+    display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+   width: 15%;
+  height: 20em;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+   margin: 0 0 0 7%; 
+    flex-direction: column;
+     align-items: flex-start;
+     line-height: 210%;
+     font-size: 1.2em;
+}
+/* /////// sign and login  */
+a.sign{
+  color:white; 
+   margin:-3.5% 0 0 78%; 
+   text-decoration: none;
+   display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  font-weight: bolder;
+  position: absolute;
+    align-items: flex-start; 
+     height: auto;
+     width: inherit;
+}
+a.login{
+  color: #333; 
+  margin:-4% 0 0 70%;
+   text-decoration: none;
+   display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  font-weight: bolder;
+  display: block;
+}
+.head{  height: 3.4%;}
+/* /// container child rips dropdown and sidebar*/
+.container .rips .rip{  
+    display: inline-block; 
+     padding: 7.5% 0 0 96%;
+     z-index: 1; 
+     position: fixed;
+} 
+ .container .child{    
+flex-direction: column;
+ align-items: flex-start;
+ display: none;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+   width: 25%;
+  height: 65em;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+   margin: 6% 0 0 2%;
+   font-size: 1.7em;  
+}
+.container .rips:hover .child{display: flex; }
+.child .box{height: 0%;}
+/* /// container child2 open dropdown and sidebar*/
+.container .chi .open{  
+    display: inline-block;
+     padding: 7.5% 0 0 2%; 
+     z-index: 1; 
+     position: fixed;
+}
+.container .chi:hover .child2{display: inline-block; }
+.container .child2{    
+flex-direction: column; 
+ align-items: flex-start;
+ display: none;
+  position: absolute;
+  background-color: white;
+   width: 22%;
+  height: 35em;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+   margin: 9% 0 0 -12%;
+   font-size: 1.2em;  
+}
+/* /////////// index1.html parent */
+/* /// parent child rips dropdown and sidebar*/
+.parent .rips .rip{  
+    display: inline-block; 
+     padding: 7.5% 0 0 96%;
+     z-index: 1; 
+     position: fixed;
+} 
+ .parent .child{    
+flex-direction: column;
+ align-items: flex-start;
+ display: none;
+  position: absolute;
+  background-color:  rgb(255, 255, 255);
+   width: 25%;
+  height: 65em;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+   margin: 6% 0 0 2%;  
+   font-size: 1.7em;
+}
+.parent .rips:hover .child{display: flex; }
+.child .box{height: 0%;}
+/* /// parent child2 open dropdown and sidebar*/
+.parent .chi .open{  
+    display: inline-block;
+     padding: 7.5% 0 0 2%; 
+     z-index: 1; 
+     position: fixed;
+}
+.parent .chi:hover .child2{display: inline-block; }
+.parent .child2{    
+flex-direction: column; 
+ align-items: flex-start;
+ display: none;
+  position: absolute;
+  background-color: white;
+   width: 22%;
+  height: 35em;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+   margin: 9% 0 0 -12%;  
+   font-size: 1.2em;
+}
