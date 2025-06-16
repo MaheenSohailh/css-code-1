@@ -1,0 +1,450 @@
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+section{
+    background-color: #fcfdfd;
+    height: 720px;
+    max-width: 100vw;
+}
+/* ////////// header start */
+header{
+    background-color: rgb(206, 202, 202);
+    width: 100vw;
+    height: 60px;
+    padding: 0.8% 1% 0.8% 10%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+/* //// dorpdown listicon */
+header .listicon .lsicon{  
+    position: absolute;
+    top: 40%;
+   right: 5%;
+    display: none;
+}
+/* ////// image  */
+img{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+/* //////// header h5  */
+header h5{
+     margin: 6px 0 0 10px;
+     font-weight: bold;
+}
+/* /// link  */
+.link{
+    margin-left: 10em;
+     align-content: center;
+}
+.link a{ padding-right: 20px;}
+/* ////// header end */
+/* //////////  main start */
+main{ 
+background-color:whitesmoke;
+    max-width: 100vw;
+  height: fit-content;
+ padding: 70px 0 30px 0;
+ display: flex;
+ column-gap: 20px;
+ flex-wrap: wrap;
+}
+.page1 {
+    width: 50%;
+    height: 74%;
+    margin-left: 10%;
+}
+.page1 h1{
+    font-family: Roboto;
+font-weight: 900;
+font-size: 54px;
+line-height: 60px;
+text-shadow: 2px 3px 4px rgb(189, 182, 182);
+}
+.page1 h1 span{ background-color: rgb(251, 255, 0);}
+main p{font-size: 17px;font-weight: bolder;}
+/* ///// input */
+input.border{ 
+    padding: 3.7px 2px;
+    border-radius: 5px 0 0 5px;
+    margin: 30.2px 0 22px 0;
+}
+button.btn1{ 
+    margin: -4px 0 0 -7.5px;
+        border-radius: 0 5px 5px 0;
+}
+.pera{ font-size: 14px; font-weight: bolder;}
+.pera i{font-size: 6px;}
+.image{
+    width: 380px;
+    height: 377px;
+}
+.image img{ 
+    width: 380px;
+    height:380px;
+    margin-left: -15px;
+}
+.text{  
+    text-shadow: 5px 5px 10px rgb(107, 103, 103);
+    margin: 7em 0 0 14em;
+   color: gray;
+}
+.text img{ 
+    width: 720px;
+    height: 36px;
+    margin-left: -96px;
+    
+}
+/* ////// main end */
+/* //////// section end */
+
+/* ////// page2  start*/
+.page2{
+    display: flex;
+    background-color:  white;
+    height: 520px;
+    padding: 50px 0 0 200px;
+}
+.page2 .image{width: 36em;}
+.page2 .website{
+    width: 194px;
+    height: 300px;
+    background-color: transparent;
+    margin: 0 0 0 50px;
+}
+.page2 .website h4{
+    font-weight: bold;
+    margin:5px 0 28px 0;
+}
+.website button.btns{
+    padding: 7px 45px 7px 6px;
+    margin-bottom: 4px;
+    border: none;
+    background-color: transparent;
+    color: grey;
+}
+.website button.btns:hover{
+    color: #0066FF;
+    background-color: rgb(233, 228, 228);
+}
+/* /////  page2 end */
+
+/* ////////// page3 start */
+.page3{
+    background-color: rgb(200, 206, 233);
+    height: 400px;
+    text-align: center;
+    padding: 60px;
+}
+.page3  h3{ 
+    font-weight: bold; 
+    color: black;
+  padding-bottom: 14px;
+}
+.page3  h3 span{ background-color: rgb(251, 255, 0); }
+.page3 p {line-height: 4px;}
+/* ////////// hero  */
+.hero{
+    background-color: transparent;
+    height: 148px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    margin: 30px 0 0 120px; 
+}
+/* /////// card  */
+.card{
+    width: 133px;
+    height: 110px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card img{margin:10px 0 8px 45px;}
+.card-text h5{
+    font-size: 17px;
+    font-weight: bold;
+}
+/* ////////// page3 end */
+/* /////////// page4 start */
+.page4{
+    background-color: white;
+    height: 330px;
+    width: 1200px;
+    text-align: center;
+    padding: 4px;
+    margin: 5em 0 0 5em;
+
+}
+.page4 h3{ 
+    font-weight: bold; 
+    color: black;
+  padding-bottom: 14px;
+  line-height:1.6em;
+}
+.page4  h3 span{ background-color: rgb(251, 255, 0); }
+/* ////////// hero1 start */
+.hero1{
+    height: 170px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    margin: 30px 0 0 120px;
+}
+.card1{
+    width: 258px;
+    height: 130px;
+    background-color: #EEF1F7;
+    border-radius: 5px;
+    padding: 4px  8px;
+    text-align: left;
+}
+.card1 h3{ font-size:1.3em;margin-bottom: -8px;}
+.card-text h6{
+    font-weight: bold;
+    color: black;
+}
+.card-text .pera{line-height: 1.1em;font-weight: normal;}
+/* ////////// hero1 end */
+/* //////// Social start */
+.Social { 
+    height: 180px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+     margin-left: -0.3%;
+     margin-top: 22px;
+    text-align: center;
+}
+.Social .Socialproof{
+    width: 382px;
+    height: 160px;
+    padding: 6px 1px 0 1px;
+}
+.Socialproof .pera{
+    line-height: 1.1em;
+    font-weight: normal;
+    padding-top: 12px;
+}
+.Socialproof .bold{ 
+    font-size: 14px; 
+    font-weight: bold;
+}
+.Socialproof .img{  width: 90px;}
+/* ////// Social end */
+/* /////////// page4 end */
+
+/* /////////// page5 start */
+.page5{
+    background-color: #111827;
+    height: 600px;
+    margin-top: 190px;
+    text-align: center;
+    padding: 40px;
+}
+.page5 h2{ color: #FFFFFF;}
+.page5 p {
+    color: #FFFFFF;
+     font-size: 12px;
+    margin-bottom: 40px;
+}
+/* /////////// hero2 */
+.hero2{
+    height: 250px;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    margin: 30px 0 0 226px;
+}
+.hero2 .card2{
+     width: 180px;
+     height: 220px;
+     background-color: white;
+     border-radius: 5px;
+     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.card2 .pick img{
+    width: 180px;
+    height: 110px;
+}
+.card2 .side{
+     text-align: left;
+     padding: 10px 0 0 10px;
+}
+.card2 .side p,h5{ color: black;}
+.card2 .different{ 
+     padding: 10px 0 0 10px;
+    text-align: left;
+    margin-bottom: -25px;
+}
+.card2 .different p,h5{ color: black;}
+/*////  dots  */ 
+  .dots {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .dots span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 4px;
+    cursor:pointer;
+    border: 1px solid white;
+  }
+  .dots .active {
+    background: white;
+  }
+/* /////////// page5 end */
+
+/* /////////// page6 start */
+
+.page6 {
+    margin-top: 6%;
+    padding-left: 310px;
+
+}
+.page6 .box{
+    background-color: #EAF4FC;
+    max-width: 58vw;
+    height: 55vh;
+    border-radius: 10px;
+    padding: 20px;
+     display: flex;
+   justify-content: space-evenly;
+
+}
+/* /////////// page6 end */
+/* /////////// page7 start */
+.page7{
+    margin: 5% 0 5% 15%;
+    text-align: center;
+}
+.bgimage{
+    filter: brightness(50%);
+     position: relative;
+}
+.box1{ 
+    background-color: #FFFFFF;
+    width: 22vw;
+    height: 80vh;
+    position: absolute;
+    margin: -37em 0 0 22em;
+}
+.fs-6{font-size: 12px !important;}
+.and button{width: 73.8px; margin-left: -4.3px; }
+.and button.hover:hover{ 
+    color: #0066FF !important;
+    background-color: #FFFFFF !important;
+}
+.box2 .fs-6{ font-size: 9px !important;}
+/* /////////// page7 end */
+/* //////// page8 start */
+.page8{
+    display: flex;
+    max-width:78vw;
+    margin:0 0 0 9%;
+    padding: 2% 5%;
+
+ }
+ .page8 .icon{ 
+    margin:0 4px;
+    width: 16px;
+    height: 16px;
+ }
+ .ima{ margin-top: -8%;}
+/* /////////// page8 end */
+/* /////////// page9 start */
+.page9{
+    max-width:78vw;
+    height: 62vh;
+    margin:5% 0 6% 9%;
+ }
+ .h-0{ height: 20vh !important;}
+ .w-0{ width: 14vw !important;}
+ /* /////////// page9 end */
+/* /////// page11 start  */
+.page11{
+    max-width: 100vw;
+    height: 110vh;
+}
+.page11 .cards{
+    width: 200px;
+   height: 230px;
+}
+.google{ width: 25px; height: 25px;}
+/* ///////// page11 end */
+/* ///////// page12 start */
+.page12{ 
+   min-width:90vw;
+   min-height: 205vh;
+}
+.bt{
+    width: 17%;
+    height: 40px;
+    margin-left: 35em;
+}
+.card3{
+    width: 26%;
+    min-height: 75vh;
+}
+.hide{ display: none;}
+.card3:hover .hide{ display: block;}
+.card3:hover{ border: 3px solid #0066FF;}
+.line{text-decoration:line-through;}
+/* ////////////////// questions  */
+.questions{ 
+    text-align: left;
+    padding-left: 1em;
+    max-width: 50vw;
+    margin-left: 20em;
+    margin-top: 4em;
+
+}
+.question { position: relative;}
+
+.downArrow,
+.upArrow {
+    font-size: 1em;
+    position: absolute;
+    top: .5em;
+    right: 1em;
+}
+
+.upArrow { z-index: -1;}
+
+.question:hover .upArrow { z-index: 1;}
+
+.question:hover .downArrow { z-index: -1;}
+
+.question p {
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    opacity: 0;
+    height: 0;
+    transition: opacity 0.3s ease-in-out ,  height 0.3s ease-in-out ;
+}
+
+.question:hover  p{
+     opacity: 1;
+    height: max-content;
+}
+/* ///////// page12 end */
+
+ /* ///////// page14 start */
+.page14{
+ min-width:90vw;
+   min-height: 101vh;
+}
+.footer{
+      min-height: 41vh;
+    background-color: #111827;
+    flex-wrap: wrap;
+}
+ /* ///////// page14 end */

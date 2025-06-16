@@ -1,0 +1,161 @@
+header{ padding: 0.8% 1% 0.8% 1%;}
+header .listicon .lsicon{  display:block;}
+header .link{ display: none;
+  background-color: black;
+   width: 10em;
+  height: 20em;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+   margin: 18% 0 0 5%; 
+    flex-direction: column;
+     align-items: flex-start;
+     line-height: 270% !important;
+     font-size: 1.3em !important;
+     align-items: center;
+    }
+header .link a{ color: white !important;}
+header .listicon:hover .link{ display:flex;}
+main{ display: flex;  
+ flex-direction: row;
+ text-align: center;
+ row-gap: 68px;
+    height: 1062px;
+}
+section{ height: 1062px;}
+main .text{  margin: 25em 0 0 0; }
+main .text img{ 
+  width: 290px;
+  height: 30px;
+  margin-left: -3px;
+}
+.page1 h1{ 
+    font-size: 25px;
+      line-height: 30px;
+}
+main .image{
+    height: 0;
+    width: 0;
+    margin-top: 29em;
+    margin-left: -17em;
+    padding: 10px;
+}
+.page2{ 
+     flex-direction: column;
+    padding-left: 15px;
+    height: 600px;
+    padding-bottom: 2em;
+}
+.page2 .image{ 
+    width: 18em; 
+   margin-bottom: 2em;
+   margin-left: -3px;
+}
+.page3{height: 1000px;}
+.page3 .hero{
+        flex-direction: column;
+        row-gap: 20px;
+     margin: 0 0 0 4em;
+     
+}
+.page3 p{ line-height: 18px;}
+.page4{
+    margin: 0;
+    width: 100vw;
+    height: 90vh;
+    margin-top: 3em;
+}
+.page4 .hero1{
+        row-gap: 20px;
+    flex-direction: column;
+    margin-left: 2em;
+}
+
+.page4 .Social{  
+    margin-top: 20em;
+    width: 100vw;
+    margin-left: -4px;
+    margin-bottom: 0;
+}
+.page5{ 
+    height: 146vh;
+margin-top: 0;}
+.page5 .hero2{
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 0;
+    margin-left: 5em;
+}
+.page5 .dots{ margin-top: 47em;}
+.page6{padding: 5px 2px;}
+.page6 .box{ 
+    flex-direction: column; 
+    max-width: 66vw;
+}
+.page6 .word{ width: 16em !important;}
+.page6 .logos img{
+     width: 240px !important;
+     height: 168px !important;
+}
+.page7 { margin: 1em 0 1em 0 !important;}
+.page7 .box1{ 
+     width: 15em;
+      height: 38.3em; 
+      padding: 0; 
+      margin-top: -45em;
+       margin-left: 40px;
+}
+.page7 .short{margin-top:1em !important; }
+.page7 .bgimage{ height: 800px !important;}
+.page8{ flex-direction: column;}
+.page8 .ima{ padding: 0 !important; margin-left: 0 !important;}
+.page8 .ima .im{ padding: 0 !important; margin-left: 0 !important;}
+.page9{ height: 96em;}
+.page9 .hero{ 
+    flex-direction: column;
+     row-gap: 20px;
+}
+.page9 .card{
+     width: 10em !important;
+    padding-bottom: 1em;
+    margin-left: -4em !important;
+ }
+.page9 .he{ 
+    flex-direction: column; 
+    row-gap: 20px;
+     margin-top: 35em !important;
+ }
+.page9 .last{ margin-top: 45em !important;}
+.page11{height: 138em;}
+.page11 .he{ margin-top: 26em !important;}
+.page11 .hero{
+    row-gap: 20px;
+    flex-direction: column;
+    margin-left: 8px;
+}
+.page11 .bottom{ margin-top: 27em !important;}
+.page12{ height: 180em !important;}
+.page12 .bt{ width: 14em; margin:0 0 0 5em;}
+.page12 .hero {
+     row-gap: 20px;
+    flex-direction: column;
+    margin: 0 0 0 5em;
+}
+.page12 .card3{ 
+    width: 300px;
+   min-height: 30em;
+   margin-left: -60px;
+}
+.page12 .heading2{ margin-top: 54em;}
+.page12 .questions{  
+    margin: 3em 0 0 3em;
+    padding: 0 0 ;
+    max-width: 77vw;
+}
+.page14 .footer{ 
+    flex-direction: column;
+   row-gap: 20px;
+}
+.page14 .s{ 
+    width: 11em !important;
+     text-align: center; 
+}
