@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+/* ///// header */
+header{ margin-top: 75px;}
+/* ///// navbar */
+ .nav-item .nav-link:hover{ color: orange !important;}
+ /* //////// carousel-item slider */
+.carousel-item{
+     height:100vh;
+background-size: cover;
+}
+.animate__fadeInUp,.slideInDown,.fadeInUp{ animation-delay: 1s;}
+.word .move {animation-delay: s ; }
+.word .move1 {animation-delay: .2s ; }
+.word .move2 {animation-delay: .3s ; }
+.word .move3 {animation-delay: .4s ; }
+.word .move4 {animation-delay: .5s ; }
+.word .move5 {animation-delay: .6s ; }
+.word{ word-spacing: 20px !important;}
+.underline:hover{ 
+   transition: all 0.5s;
+    text-decoration: underline !important; 
+    color: orange !important;
+}
+.dropdown-menu a:hover{
+     transition: all 0.5s;
+    text-decoration: underline !important; 
+    color: orange !important;
+}
+.animate__fadeInLeft{  
+    animation-delay:  6s;
+   
+}
+/* ////// page1 */
+.shape{clip-path: ellipse(29% 35% at 15% 14%);}
+.shape1{
+    clip-path: ellipse(35% 30% at 78% 85%);
+     height: 66vh;
+     margin-left: 23%;
+     margin-top: -63.8%;
+}
+/* /////// page2 */
+.fillter{filter: brightness(50%); height: 100vh;}
+.uper{ 
+    margin-left: 10% !important;
+    top: 405% !important;
+}
+/* / page4 */
+.page4{ height: 60vh !important;}
+
+/* ////// page7 */
+.page7:hover{box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;}
+/* ///// page3  */
+.hide{
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  width: 18.2%;
+  transition: .5s ease;
+  opacity:0;
+}
+.hiden:hover .hide{
+  opacity: 1;
+}
+.hiden img{transition: transform .5s;}
+.hiden:hover img{transform: scale(1.1); }
+
+/* ///////// page8 marquee */
+.marquee{
+    width: 80vw;
+    height: 20vh;
+    overflow: hidden;
+}
+.marquee-contant{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    animation: scrolling 20s linear infinite;
+} 
+
+@keyframes scrolling{
+    0%{  transform: translateX(0);}
+       100%{  transform: translateX(-100vw);}
+}
+
+.marquee-contant:hover{
+    animation-play-state: paused;
+cursor: grab;
+}
+
+.marquee-contant li{
+    width: 15vw;
+    flex-shrink: 0;
+    font-size: 5rem;
+    white-space: nowrap;
+}
+
+/* ///// page9 */
+
+.page9{
+    background-image: url("./map.png");
+    background-position: right 150px center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+}
+.linka:hover{
+    color: white !important;
+      transition: all 0.5s;
+ }
+/* /// page10 */
+.page10{    background-color: #222; }
+
+
+
+
+
+ /* ///////// media queries */
+ @media ( max-width:764px) {
+    .top {
+        width: 100vw !important;
+        margin-top: 70% !important;
+    }
+    .page1{height:117vh !important ;}
+     .uper{ 
+        top: 442% !important; 
+        margin-left: -2% !important;
+    }
+     .loop, .page3{top: -43% !important;}
+       .wid{width: 72% !important; }
+
+}
+@media ( max-width:1300px) {
+ .shape1{display: none !important;}
+}
